@@ -22,6 +22,7 @@ body {
     font-weight: bold;
     color: #000000;
     padding: 0 60px;
+    text-decoration: none;
 }
 
 .nav-links {
@@ -63,5 +64,7 @@ body {
     outline: none;
     border-color: #007bff;
 }
+
+
 
 
