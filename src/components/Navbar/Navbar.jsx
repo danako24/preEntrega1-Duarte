@@ -10,10 +10,9 @@ const Navbar = () => {
             <nav className="navbar">
                 <Link  to='/' className="logo">MUDKISTORE</Link>
                 <ul className="nav-links">
-                    <li><Link to='/' className='root'>inicio</Link></li>
-                    <li><Link to='/category/cartas' className='category'>Singles</Link></li>
-                    <li><Link to='/category/accesorios' className='category'>accesorios</Link></li>
-                    <li><Link className= '#contacto'>Contacto</Link></li>
+                    <li><Link to='/' className='root'>Inicio</Link></li>
+                    <li><Link to='/category/cartas' className='category'>Cartas</Link></li>
+                    <li><Link to='/category/accesorios' className='category'>Accesorios</Link></li>
                 </ul>
                 <div className="search-bar">
                     <input type="text" placeholder="Buscar" />

@@ -1,19 +1,24 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useContext } from "react";
+import { CartContext } from "../../context/CartContex";
+import { Link } from "react-router-dom";
 
 const CartWidget = () => {
-  const cartCount = 5;
+  const { totalQuantify }= useContext(CartContext)
+
+  let quantify = totalQuantify()
 
   return (
-    <div className="position-relative d-inline-block">
+    <Link to="/cart" className="position-relative d-inline-block">
       <i className="bi bi-cart fs-3 "></i> {}
-      <span
+      <p
         className="top-0 start-100 translate-middle badge rounded-pill bg-danger"
-        style={{ fontSize: "12px" }}
+        style={{ fontSize: "12px"}}
       >
-        {cartCount}
-      </span>
-    </div>
+        {quantify !== 0 && quantify}
+      </p>
+    </Link>
   );
 };
 

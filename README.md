@@ -1,8 +1,16 @@
-# React + Vite
+# Ecommerce Mudkistore - with React JS
+#### `Dev - Danilo Duarte`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src ="./public/assets/logo.png" width="200" >
 
-Currently, two official plugins are available:
+### Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto se desarrolla para optimizar vistas y ventas.
+Compra y venta cartas pokemon.
+instagram https://www.instagram.com/mudkistore/?hl=es
+
+
+### Dependencias
+
+`bootstrap` `firebase` `react-toastyfy` `sweetalert` `toastify-js`
+`yup`
