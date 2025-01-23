@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import EjemploContadorEventListener from './components/EjemploContadorEventListener';
 import { CartProvider } from './context/CartContex';
 import Cart from './components/Cart/Cart';
-import Checkout from './components/checkout/checkout';
+import Checkout from './components/Checkout/Checkout';
 import { ToastContainer } from 'react-toastify';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Footer from './footer/footer';
